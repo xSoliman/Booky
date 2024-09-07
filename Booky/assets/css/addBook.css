@@ -1,0 +1,118 @@
+* {
+    font-family: "Dosis", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: "Dosis", sans-serif;
+}
+h1{
+    font-size: 35px;
+    color:rgb(0, 13, 125);
+    margin-bottom: 30px;
+}
+.main {
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px silver;
+    text-align: center;
+    margin: 10% auto;
+    
+}
+
+#logo {
+    width: 300px;
+}
+
+
+.form-group {
+    margin: 10px 0;
+}
+
+#file {
+    display: none;
+}
+
+.file-label {
+    cursor: pointer;
+    background-color: #1F87CF;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.file-label:hover {
+    background-color: #0095ff;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+}
+
+input {
+    width: 60%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#upload {
+    display: none; /* Hide the submit button */
+}
+
+.uploadProduct {
+    border: 2px dashed #ccc; 
+    padding: 5px; 
+    width: 30%; 
+    margin:0 auto;
+    font-weight: bold;
+    font-size: 16px; /* Slightly larger font size */
+    text-align: center; /* Center align text and image */
+    background-color: #f9f9f9; /* Light background color for visual appeal */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor to indicate clickable area */
+}
+
+.uploadProduct:hover {
+    background-color: #e6e6e6; /* Slightly darker background on hover */
+    border-color: #aaa; /* Darker border on hover */
+}
+
+.upload-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#addIcon {
+    margin-left: 10px; 
+    width: 30px; 
+    height: auto; 
+}
+.uploadProduct:hover #addIcon {
+    filter: brightness(1.2); /* Brighten image on hover */
+}
+.store{
+    margin-top:30px;
+ 
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:tomato;
+    font-weight:500;
+}
